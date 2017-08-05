@@ -1,4 +1,4 @@
-(document).ready(main);
+$(document).ready(main);
 
 function main() {
 $("#greetings").hide();
