@@ -1,6 +1,5 @@
-function main() {
-$("#greetings").hide();
-$("#greetings").fadeIn(1000);
-}
+$("#greetings").hide(function() {
+  ("#greetings").fade(1000);
+});
 
 $(document).ready(main);
