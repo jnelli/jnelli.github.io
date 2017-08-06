@@ -1,10 +1,10 @@
 function main(){
  $('#greetings').hide();
+ $('#cat').hide();
  $('#greetings').fadeIn(1000);
 }
  
 function cat(){
- $('#cat').hide();
  $('#cat').delay(2000).fadeIn(1000);
 }
 
