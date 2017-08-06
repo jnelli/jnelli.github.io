@@ -1,4 +1,4 @@
-var catTimer = scope.setTimeout(cat[, 3000]);
+var catTimer = scope.setTimeout(cat()[, 3000]);
 
 function main(){
  $('#greetings').hide();
