@@ -5,7 +5,7 @@ function main(){
 }
 
 function cat(){
-  $('#cat').delay(2000).fadeIn(1000);
+  $('#cat').fadeIn(1000);
 }
 
 $(document).ready(main);
