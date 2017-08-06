@@ -1,12 +1,11 @@
-function main(){
+
+$(document).ready(function () {
   $('#greetings').hide();
-  $('#greetings').fadeIn(1000);
-}
+  $('#greetings').fadeIn(1000);          
+   });
 
-function cat{
-  $('cat').hide();
-  $('#cat').delay(2000).fadeIn(1000);
-}
 
-$(document).ready(main);
-$(document).ready(cat);
+$(document).ready(function () {
+  $('#cat').hide();
+  $('#cat').delay(2000).fadeIn(1000);          
+   });
