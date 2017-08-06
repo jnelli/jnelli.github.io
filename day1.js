@@ -4,8 +4,8 @@ function main(){
 }
 
 function cat(){
- $('#cat').hide();
- $('#cat').fadeIn();
+ $('#cat').hide(2000);
+ $('#cat').fadeIn(1000);
 }
 
 $(document).ready(main);
