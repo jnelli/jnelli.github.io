@@ -1,3 +1,21 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+
+h1 {
+  text-align: center;
+  color: orange;
+}
+
+a {
+  color: teal;
+  padding: 10px;
+}
+
+a:hover {
+  color:orange;
+}
+
+a:active {
+  color: darkblue;
+}
