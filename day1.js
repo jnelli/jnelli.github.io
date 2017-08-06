@@ -3,9 +3,10 @@ function main(){
  $('#greetings').fadeIn(1000);
 }
 
-$('#cat').hide();
 
-$.when(main).then(function cat(){
+
+$.when(main()).done(function cat(){
+ $('#cat').hide();
  $('#cat').fadeIn(1000);
 });
 
