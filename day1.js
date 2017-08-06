@@ -11,7 +11,7 @@ function main(){
 function cat(){
  var paused = false;
  if (paused === false){
- $('#cat').hide(2000);
+ $('#cat').hide();
  $('#cat').fadeIn(1000);
  } 
 }
