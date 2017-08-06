@@ -4,10 +4,5 @@ function main(){
 
 }
 
-function cat(){
- $('#cat').hide();
-  $('#cat').delay(2000).fadeIn(1000);
-}
 
 $(document).ready(main);
-$(document).ready(cat);
