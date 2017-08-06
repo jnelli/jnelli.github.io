@@ -1,5 +1,3 @@
-var catTimer = scope.setTimeout(cat()[, 3000]);
-
 function main(){
  $('#greetings').hide();
  $('#greetings').fadeIn(1000);
