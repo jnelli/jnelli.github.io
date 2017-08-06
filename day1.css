@@ -11,6 +11,10 @@ h1 {
   padding: 4em;
 }
 
+img {
+  float: right;
+}
+
 footer {
   padding: 10px;
 }
