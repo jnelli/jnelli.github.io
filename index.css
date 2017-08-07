@@ -24,3 +24,7 @@ a:hover {
 a:active {
   color: darkblue !important;
 }
+
+footer {
+ margin-top: 20px !important; 
+}
