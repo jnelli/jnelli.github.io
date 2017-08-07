@@ -4,19 +4,23 @@ body {
 }
 
 h1 {
-  text-align: center;
-  color: orange;
+  text-align: center !important;
+  color: orange !important;
+}
+
+row {
+ margin-left: 15px !important; 
 }
 
 a {
-  color: teal;
-  padding: 10px;
+  color: teal !important;
+  padding: 10px !important;
 }
 
 a:hover {
-  color:orange;
+  color:orange !important;
 }
 
 a:active {
-  color: darkblue;
+  color: darkblue !important;
 }
