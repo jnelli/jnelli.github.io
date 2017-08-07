@@ -1,0 +1,83 @@
+  body {
+    background-color: #ceff6d !important;
+    margin: 50px !important;
+  }
+
+
+  a {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px !important;
+    color: #829300 !important;
+    text-decoration: none;
+    padding: 30px;
+  }
+
+  a:hover {
+    color: orange !important;
+  }
+
+  h4 {
+    font-family: "Walter Turncoat", cursive !important;
+    font-size: 40px !important;
+  }
+
+  h4, p {
+    font-family: "Roboto", sans-serif;
+    color: #4d4f39;
+    margin-left: 5%;
+  }
+
+  p {
+    font-size: 20px !important;
+  }
+
+
+  h1 {
+  text-align: left;
+  color: #4d4f39;
+  font-family: "Walter Turncoat", cursive !important;
+  font-size: 40px !important;
+    font-weight: bold !important;
+  }
+
+  .menu {
+    margin-top: 50px !important;
+    position: relative;
+    z-index: 1000 !important;
+  }
+
+  #toad {
+    max-width: 400px;
+    padding: 20px;
+
+  }
+
+  #mouse {
+    margin-top: 80px !important;
+    max-width: 400px;
+    padding: 20px;
+
+  }
+
+  #grasshopper {
+    max-width: 300px;
+    margin-left: 20px;
+    padding: 20px;
+  }
+
+  .dinnertime {
+    margin-top: 100px;
+  }
+
+  #hognose {
+    position: relative;
+    max-width: 600px;
+    padding: 20px;
+
+  }
+
+  #plate {
+    z-index: -6 !important;
+    position: relative;
+    max-width: 700px;
+  }
