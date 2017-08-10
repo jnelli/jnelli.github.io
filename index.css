@@ -21,8 +21,8 @@ a {
   padding: 10px !important;
   text-decoration: none;
   margin: 5px;
-  letter-spacing: 2px;
-    text-decoration: none;
+  letter-spacing: 2px !important;
+  text-decoration: none !important;
 
 }
 
@@ -32,7 +32,7 @@ a:hover {
 
 a:visited {
   color: blue !important;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 footer {
