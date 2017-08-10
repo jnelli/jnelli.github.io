@@ -21,6 +21,7 @@ a {
   padding: 10px !important;
   text-decoration: none;
   margin: 5px;
+  letter-spacing: 1px;
 }
 
 a:hover {
@@ -28,7 +29,8 @@ a:hover {
 }
 
 a:active {
-  color: darkblue !important;
+  color: blue !important;
+  text-decoration: none;
 }
 
 footer {
