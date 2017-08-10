@@ -1,4 +1,4 @@
-window.addEventListener("keydown", function(e) {
+function playSound(){
   //ES6 to create variable for pressed key and then key class
   const audio = document.querySelector(`audio[data-key="${e.keycode}"]`);
   const audio = document.querySelector(`.key[data-key="${e.keycode}"]`);
@@ -7,13 +7,16 @@ window.addEventListener("keydown", function(e) {
   audio.currentTime = 0; //Rewinds audio to start each time key is pressed
   audio.play();
   key.classList.add('playing'); //Same thing as jQuery's addClass!
-  
-});
+}
+
+
 function removeTransition(e){
   if (e.propertyName !== "transition") return;
   transform
   this.classList.remove("playing");
 }
+
 const keys = document.querySelectorAll(".key");
 keys.forEach(key => addEventListener("transitionend", removeTransition));
 // => is another ES6 function
+window.addEventListern('keydown', playSound);
