@@ -2,7 +2,7 @@ function playSound(e){
   //ES6 to create variable for pressed key and then key class
   const audio = document.querySelector(`audio[data-key="${e.keycode}"]`);
   const key = document.querySelector(`.key[data-key="${e.keycode}"]`);
-  console.log(audio); //ES6 to create variable for pressed key
+   //ES6 to create variable for pressed key
   if(!audio) return; //cancels function if no audio w/ pressed key
   audio.currentTime = 0; //Rewinds audio to start each time key is pressed
   audio.play();
