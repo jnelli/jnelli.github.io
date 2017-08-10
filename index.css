@@ -21,14 +21,16 @@ a {
   padding: 10px !important;
   text-decoration: none;
   margin: 5px;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
+    text-decoration: none;
+
 }
 
 a:hover {
   color:orange !important;
 }
 
-a:active {
+a:visited {
   color: blue !important;
   text-decoration: none;
 }
